@@ -2,6 +2,7 @@ package cmds
 
 import (
 	"context"
+	"fmt"
 )
 
 type Executor interface {
@@ -33,6 +34,18 @@ type executor struct {
 }
 
 func (x *executor) Execute(req *Request, re ResponseEmitter, env Environment) error {
+
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+	fmt.Println("called")
+
+	fmt.Println("called")
+
 	cmd := req.Command
 
 	if cmd.Run == nil {
