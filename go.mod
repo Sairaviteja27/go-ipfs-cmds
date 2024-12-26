@@ -1,4 +1,4 @@
-module github.com/ipfs/go-ipfs-cmds
+module github.com/Sairaviteja27/go-ipfs-cmds
 
 go 1.22.0
 
